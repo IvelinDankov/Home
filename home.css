@@ -432,7 +432,7 @@ h3 {
   padding: 0 2rem;
 }
 .about-card {
-  background-color: var(--white-color-3);
+  background-color: var(--white-color);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -443,4 +443,9 @@ h3 {
 .about-image {
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
+}
+
+.about-title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
 }
